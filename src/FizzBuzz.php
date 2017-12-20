@@ -37,11 +37,7 @@ class FizzBuzz
 
     private function checkInRange(int $value): bool
     {
-        if ($value >= 1 && $value <= 100) {
-            return true;
-        }
-
-        return false;
+        return $value >= 1 && $value <= 100;
     }
 
     private function sortRangeValues(int &$param1, int &$param2)
